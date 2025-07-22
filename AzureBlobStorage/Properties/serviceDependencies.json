@@ -1,12 +1,17 @@
 {
   "dependencies": {
-    "secrets1": {
-      "type": "secrets"
-    },
     "storage1": {
       "type": "storage",
       "connectionId": "BlobStorageConnection",
       "dynamicId": null
+    },
+    "cosmosdb1": {
+      "type": "cosmosdb",
+      "connectionId": "ConnectionStrings:CosmosDBConnection"
+    },
+    "secrets1": {
+      "type": "secrets",
+      "connectionId": null
     }
   }
 }

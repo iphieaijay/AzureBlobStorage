@@ -1,8 +1,5 @@
 {
   "dependencies": {
-    "secrets1": {
-      "type": "secrets.user"
-    },
     "storage1": {
       "containerPorts": "10000:10000,10001:10001,10002:10002",
       "secretStore": "LocalSecretsFile",
@@ -11,6 +8,21 @@
       "type": "storage.container",
       "connectionId": "BlobStorageConnection",
       "dynamicId": null
+    },
+    "cosmosdb1": {
+      "containerPorts": "8081:8081,10251:10251,10252:10252,10253:10253,10254:10254",
+      "secretStore": "LocalSecretsFile",
+      "containerName": "cosmosdb",
+      "containerImage": "mcr.microsoft.com/cosmosdb/linux/azure-cosmos-emulator",
+      "resourceId": null,
+      "type": "cosmosdb.container",
+      "connectionId": "ConnectionStrings:CosmosDBConnection"
+    },
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": null,
+      "type": "secrets.user",
+      "connectionId": null
     }
   }
 }
