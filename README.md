@@ -33,14 +33,7 @@ Docker
 
 Project Structure
 
-src/
-├── BlobFunction/           # Azure Function for Blob Storage (Upload, List, Delete)
-├── CosmosFunction/         # Azure Function for Cosmos DB CRUD
-├── Models/                 # Request/Response/DTO models
-├── Services/               # Blob and Cosmos DB services
-├── local.settings.json     # Local Azure Function settings
-├── host.json               # Azure Functions host configuration
-└── README.md
+
 
  ### Prerequisites
 .NET 8 SDK
