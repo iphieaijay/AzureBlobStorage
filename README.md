@@ -33,10 +33,7 @@ Docker
 
 Project Structure
 
-
-![Uploading image.png…]()
-
-
+<img width="738" height="236" alt="image" src="https://github.com/user-attachments/assets/76d5abc6-2b13-429f-b29b-91e0b4013edf" />
 
  ### Prerequisites
 .NET 8 SDK
